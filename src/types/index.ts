@@ -1,8 +1,8 @@
-import type { ButtonHTMLAttributes, HTMLAttributes } from "react";
+import type { ButtonHTMLAttributes, HTMLAttributes } from 'react';
 
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: "primary" | "secondary" | "ghost" | "outline";
-  size?: "sm" | "md" | "lg";
+  variant?: 'primary' | 'secondary' | 'ghost' | 'outline';
+  size?: 'sm' | 'md' | 'lg';
   isLoading?: boolean;
   fullWidth?: boolean;
   leftIcon?: React.ReactNode;
@@ -11,7 +11,7 @@ export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 
 export interface CardProps extends HTMLAttributes<HTMLDivElement> {
   hover?: boolean;
-  padding?: "none" | "sm" | "md" | "lg";
+  padding?: 'none' | 'sm' | 'md' | 'lg';
 }
 
 export interface Game {

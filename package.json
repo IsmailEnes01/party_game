@@ -1,5 +1,5 @@
 {
-  "name": "card-game-platform-fresh",
+  "name": "card-game-platform",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,8 +11,6 @@
   },
   "dependencies": {
     "clsx": "^2.1.1",
-    "framer-motion": "^12.42.2",
-    "lucide-react": "^1.24.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "tailwind-merge": "^3.6.0"
